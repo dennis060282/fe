@@ -1,0 +1,22 @@
+h1{
+    color: rgb(25, 96, 227);
+} 
+h2{
+    color: rgb(245, 107, 9);
+}
+/* style title */
+p{
+   color:rgb(22, 20, 7); 
+}
+.green-text{
+    color: green ;
+}
+.bold{
+    font-weight: bold ;
+}
+.green-text.bold{
+    text-decoration: underline ;
+}
+div{
+    color:#ff4000
+}
