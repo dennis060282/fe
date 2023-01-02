@@ -60,13 +60,9 @@ button{
     background: white;
 }
 .container{
-    padding: 0px;
-    margin: 0px;
+    margin: 50px auto;
     width: 1100px; 
     height: 200px;
-    margin: 0 auto;
-    left: 205px;
-    top: 108px;
 }
 .Landing title{
     display: inline-block;
@@ -75,4 +71,11 @@ button{
     size: 47px;
     margin: 0 auto;
     font-size: 16px;
+}
+span{
+    padding: 20px;
+    margin: 0px;
+    color: white;
+    background-color: blue;
+    line-height: 5;
 }
