@@ -1,4 +1,4 @@
-/*div p:nth-child(even){
+/* div p:nth-child(even){
     background-color: blue;
 } */
 
@@ -6,6 +6,6 @@ div p:nth-child(odd){
     background-color: blue;
 }
 div{
-    width: 300 px;
+    width: 350 px;
     margin: 0 auto;
 }
