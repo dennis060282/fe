@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
@@ -33,7 +34,7 @@
         <br>
         <fieldset>
             <legend>
-                User data
+                User data222
             </legend>
             <div>
                 <label for="userName">
@@ -45,15 +46,47 @@
                 <label for="userAge">
                     user age
                 </label>
-                <input type="text" placeholder="Type your user name" id="userAge">
+                <input type="text" disabled placeholder="Type your user name" id="userAge">
             </div>
         </fieldset>
         <select name="" id="select">
             <option value="01">Html</option>
             <option value="02">Css</option>
-            <option value="03">Js</option>
+            <option  disabled value="03">Js</option>
             <option value="04">SCSS</option>
         </select>
+        <br>
+        <textarea name="" id="" cols="10" rows="3"></textarea>
+        <br><br><br>
+        <div>
+            Male
+            <input type="radio" name=gender" id="">
+        </div>
+        <div>
+            Female
+            <input type="radio" name=gender" id="">
+        </div>
+        <br><br><br>
+        <h3>
+            Select car models
+        </h3>
+        <div>
+            Mazda
+            <input type="checkbox" name="vehicle" id="">
+        </div>
+        <div>
+            Audi
+            <input type="checkbox" disabled name="vehicle2" id="">
+        </div>
+        <div>
+            BMW
+            <input type="checkbox" name="vehicle3" id="">
+        </div>
+        <br><br><br>
+        <input type="submit" value="Відправка форми">
+        <button>Button text</button>
     </form>
+    <button>Button text</button>
+    <a href="#">Link</a>
 </body>
 </html>
