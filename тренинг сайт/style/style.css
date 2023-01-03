@@ -23,7 +23,7 @@ a{
    padding: 20px;
 }
 nav{
-    display: inline-block; 
+   display: inline-block; 
    width: 500px;
    text-align: right;
    background-color: white;
@@ -36,4 +36,18 @@ button{
    text-align:center;
    padding: 5px 10px;
    color: blue;
+}
+section{
+    width: 1100px;
+    height: 700px;
+    margin: 0 auto;
+    text-align: left; 
+    padding: 190px;
+}
+h1{
+    font-size: 47px;
+}
+h2{
+    font-size: 16px;
+    padding: 10px;
 }
