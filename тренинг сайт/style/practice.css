@@ -26,23 +26,32 @@ a{
     width: 700px;
     background-color: white;
     margin: 0 auto;
-    font-size: 47px;
+    font-size: 27px;
+}
+.container{
+    width: 1512px;
+    height: 96px;
+    margin: 0 auto;
+    padding: 40px;
 }
 nav{
     display: inline-block;
-    font-size: 36px;
+    font-size: 21px;
     width: 627px;  
     height: 45px;
     text-align: right;
     background-color: white;
     gap: 32px;   
     margin: 0 auto;
+    padding: 20px;
+    color: blue;
 }
 button{
     border: 2px solid blue;
     text-align: center;
     padding: 5px 10px;
     background: white;
+    font-size: 21px;
 }
 .container{
     margin: 50px auto;
