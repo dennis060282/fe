@@ -1,3 +1,39 @@
-.container {
-    $maxWidthContainer: 1202;
+p{
+    text-align: center;
+}
+a{
+   font-size: 21px; 
+   color: black;
+   text-align: center;
+   text-decoration: none ;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.container{
+    width: 1512px;
+    height: 96px;
+    margin: 0 auto;
+}
+.logo{
+   display: inline-block; 
+   width: 600px;
+   background-color: white;
+   font-size: 27px; 
+   padding: 20px;
+}
+nav{
+    display: inline-block; 
+   width: 500px;
+   text-align: right;
+   background-color: white;
+   word-spacing: 5px;
+}
+button{
+   border: 1px solid blue;
+   background-color: white;
+   font-size: 21px; 
+   text-align:center;
+   padding: 5px 10px;
+   color: blue;
 }
