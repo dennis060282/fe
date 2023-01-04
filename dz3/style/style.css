@@ -1,6 +1,6 @@
 .logo{
     width: 5px;
-    margin-left: 12px;
+    margin-left: 420px;
     font-size: 27px;
     font-family: 'Poppins';
     font-style: normal;
@@ -51,7 +51,7 @@ a {
     padding-bottom: 0px;
     padding-left: 10px; 
     vertical-align: top;
-    margin-left: 204px;
+    margin-left: 600px;
 }
 
 .photo1 {
@@ -67,7 +67,7 @@ a {
     display: inline-block;
     width: 470.54px;
     height: 462.38px;
-    margin-left: 95px;
+    margin-left: 255px;
 } 
 
 .title {
@@ -116,8 +116,8 @@ a {
     font-weight: 600;
     font-size: 36px;
     color:black;
-    text-align: center;
     margin-bottom: 0px;
+    margin-left: 1120px; 
 }
 
 .authors_text {
@@ -125,13 +125,14 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    color: #575757;
+    margin-right: 0px;
     text-align: center;
+    color: #575757;
     margin-top: 12px;
 }
 
 .frame {
-    margin-left: 131px;
+    margin-left: 531px;
     margin-top: 36px;
     display: inline-block;
     width: 150px;
@@ -175,7 +176,7 @@ a {
 .option {
     display: inline-block;
     margin-top: 36px;
-    margin-left: 360px; 
+    margin-left: 30px; 
 }
 
 .name2 {
@@ -222,7 +223,7 @@ a {
     display: inline-block;
     width: 10.09px;
     height: 15.63px;
-    margin-left: 110px;
+    margin-left: 250px; 
     margin-bottom: 65px;
 } 
 
@@ -267,8 +268,8 @@ a {
 .photo_students {
     width: 122px;
     height: 125px;
-    margin-left: 123.5px;
     display: inline-block;
+    margin-left: 550px;
 }
 
 .h_for {
@@ -299,17 +300,13 @@ a {
 }
 
 .photo_freelaner {
-    margin-left: 340px;
-}
-
-.photo_table{
-    margin-left: 230px;   
+    margin-left:64px;
 }
 
 .block2 {
     display: inline-block;
     margin-top: 46px;
-    margin-left: 120px;
+
 }
 
 .button4 {
@@ -321,7 +318,8 @@ a {
     background-color: #FFFFFF;
     border: 1px solid #2203E4;
     padding: 10px 16px;
-    margin: 64px 705px;
+    margin: 1px 64px;
+    margin-left: 1130px;
 }
 
 .section4 {
@@ -356,6 +354,7 @@ a {
     font-size: 21px;
     color: #000000;
     text-align: center;
+   margin-left: 450px;
 }
 
 .section4_text {
@@ -365,6 +364,7 @@ a {
     font-size: 16px;
     color: #575757;
     text-align: center;
+    margin-left: 450px;
 }
 
 .block4 {
@@ -378,7 +378,7 @@ a {
     width: 444px;
     height: 296px;
     display: inline-block;
-    margin-left: 400px;
+    margin-left: 50px;
 }
 
 .section5 {
@@ -404,7 +404,7 @@ a {
     box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
     margin-top: 42px;
-    margin-left: 407px;
+    margin-left: 840px;
     display: inline-block;
     margin-bottom: 67px;
 }
@@ -476,6 +476,7 @@ a {
 .block9 {
     display: inline-block;
     vertical-align: top;
+    margin-left: 400px;
 }
 
 .iphone2 {
@@ -517,7 +518,7 @@ a {
     background-color: #0062FF;
     padding: 10px 16px;
     margin-top: 16px;
-    margin-left: 0px;
+    margin-left: 100px;
 }
 
 .section6_text {
@@ -564,7 +565,7 @@ a {
     width: 508px;
     height: 70px;
     padding-left: 24px;
-    margin-left: 498px;
+    margin-left: 900px;
     margin-top: 28px;
     border: 0;
 }
@@ -585,7 +586,7 @@ a {
     text-align: center;
     margin-top: 14px;
     margin-bottom: 107.62px;
-    margin-left: 500px;
+    margin-left: 900px;
     padding-top: 20px;
 }
 
