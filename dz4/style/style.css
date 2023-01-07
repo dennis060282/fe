@@ -9,7 +9,7 @@
     .dib{
         width: 200px;
         /*display: inline-block;*/
-        background-color: yellow;
+        background-color: white;
     }
     .left{
         float: left;
@@ -282,6 +282,7 @@ a {
     padding-top: 71px;
     text-align: center;
     margin-bottom: 0;
+    width: 100%;
 }
 
 .for_who_text {
@@ -295,7 +296,7 @@ a {
     margin-bottom: 0;
 }
 
-.block1 {
+/*.block1 {
     display: inline-block;
     margin-top: 64px;
 }
@@ -342,8 +343,16 @@ a {
     display: inline-block;
     margin-top: 46px;
 
+}*/
+.student-item{
+    color:#FFFFFF;
+    fonts-size: 27px;
+    font-family: 'Poppins';
 }
-
+.wrapper{
+    width: 1509px;
+    height: 702px;  
+}
 .button4 {
     font-family: 'Poppins';
     font-style: normal;
@@ -353,8 +362,9 @@ a {
     background-color: #FFFFFF;
     border: 1px solid #2203E4;
     padding: 10px 16px;
-    margin: 1px 64px;
-    margin-left: 1130px;
+    margin: 40px 0px;
+    margin-left: 700px;
+    padding-bottom: 10px;
 }
 
 .section4 {
