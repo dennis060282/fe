@@ -18,7 +18,7 @@
         float: right;
     }
     .row{
-        margin-bottom: 40px;
+        margin-bottom: 16px;
     }
     .student-item {
         width: 607px;
@@ -293,7 +293,7 @@ a {
     color: #FFFFFF;
     margin-top: 16px;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 50px;
 }
 
 /*.block1 {
@@ -344,14 +344,17 @@ a {
     margin-top: 46px;
 
 }*/
-.student-item{
+.student-item {
     color:#FFFFFF;
-    fonts-size: 27px;
+    font-size: 16px;
     font-family: 'Poppins';
 }
-.wrapper{
-    width: 1509px;
-    height: 702px;  
+
+.wrapper {
+    width: 1270px;
+    height: 702px;
+    text-align: left;
+    font-size: 16px;
 }
 .button4 {
     font-family: 'Poppins';
@@ -363,8 +366,9 @@ a {
     border: 1px solid #2203E4;
     padding: 10px 16px;
     margin: 40px 0px;
-    margin-left: 700px;
+    margin-left: 570px;
     padding-bottom: 10px;
+    margin-top: 16px;
 }
 
 .section4 {
