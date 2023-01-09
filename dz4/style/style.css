@@ -41,6 +41,7 @@ body{
 }
 header{
     padding: 22px 0;
+    margin: auto;
 }
 .logo-block,
 .logo,
@@ -380,10 +381,8 @@ nav button{
     background-color: #FFFFFF;
     border: 1px solid #2203E4;
     padding: 10px 16px;
-    margin: 40px 0px;
     margin-left: 570px;
-    padding-bottom: 10px;
-    margin-top: 16px;
+    margin-top: 10px;
 }
 
 .section4 {
@@ -433,17 +432,17 @@ nav button{
 }
 
 .block4 {
-    padding-left: 830px;
+    padding-left: 906px;
     padding-top: 16px;
     display: inline-block;
-    margin-bottom: 130px;
+    margin-bottom: 135px;
 }
 
 .photo_video {
     width: 444px;
     height: 296px;
     display: inline-block;
-    margin-left: 150px;
+    margin-left: 55px;
 }
 
 .section5 {
