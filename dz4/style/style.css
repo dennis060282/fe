@@ -426,7 +426,7 @@ nav button{
     font-size: 21px;
     color: #000000;
     text-align: center;
-   margin-left: 450px;
+    margin: auto;
 }
 
 .section4_text {
@@ -436,26 +436,30 @@ nav button{
     font-size: 16px;
     color: #575757;
     text-align: center;
-    margin-left: 450px;
+    margin: auto;
 }
 
 .block4 {
-    padding-left: 906px;
+    width: 100%;
+    height: 100%;
+    margin-left: -250px;
     padding-top: 16px;
     display: inline-block;
-    margin-bottom: 135px;
+    margin-bottom: 70px;
 }
 
 .photo_video {
     width: 444px;
     height: 296px;
     display: inline-block;
-    margin-left: 55px;
+    margin-left: 1035px;
+    margin-top: -265px;
+    margin-bottom: 70px;
 }
 
 .section5 {
     width: 100%; 
-    height: 702px;
+    height: 500px;
     margin-top: -17px;
     background-color: #FFBE0B;
 }
@@ -558,16 +562,18 @@ nav button{
 }
 
 .block9 {
-    display: inline-block;
     vertical-align: top;
-    margin-left: 1165px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: table;
 }
 
 .iphone2 {
     width: 327.05px;
     height: 321.38px;
     display: inline-block;
-    margin-left: 280px;
+    margin: 0 auto;
     margin-top: 74px;
     margin-bottom: 74px;
 }
@@ -588,7 +594,7 @@ nav button{
     font-weight: 400;
     font-size: 16px;
     color: #575757;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     margin-top: 16px;
 }
 
@@ -649,10 +655,9 @@ nav button{
     width: 508px;
     height: 70px;
     padding-left: 6px;
-    margin-left: 1630px;
     margin-top: 28px;
-    border: 0;
-    margin-bottom: 20px;
+    border: 0; 
+    margin-left: 695px;
 }
 
 ::placeholder {
@@ -669,9 +674,9 @@ nav button{
     font-weight: 400;
     font-size: 16px;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 15px;
     margin-bottom: 107.62px;
-    margin-left: 1632px;
+    margin-left: 700px;
     padding-top: 20px;
     width: 508px;
     height: 39px;
