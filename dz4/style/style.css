@@ -658,7 +658,8 @@ nav button{
     padding-left: 6px;
     margin-top: 28px;
     border: 0; 
-    margin-left: 695px;
+    margin: 0auto;
+    display: inline-block;
 }
 
 ::placeholder {
@@ -677,11 +678,11 @@ nav button{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 107.62px;
-    margin-left: 700px;
     padding-top: 20px;
     width: 508px;
     height: 39px;
     display: inline-block;
+    margin: 0auto;
 }
 
 
