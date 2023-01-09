@@ -389,7 +389,8 @@ nav button{
     border: 1px solid #2203E4;
     padding: 10px 16px;
     margin-left: 570px;
-    margin-top: 10px;
+    margin-top: 68px;
+    display: inline-block;
 }
 
 .section4 {
@@ -487,7 +488,7 @@ nav button{
     background: #F3F3F3;
     box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
-    margin-top: 42px;
+    margin-top: -25px;
     display: inline-block;
     margin-left: 277px;
 }
@@ -587,8 +588,8 @@ nav button{
     font-weight: 400;
     font-size: 16px;
     color: #575757;
-    margin-top: 16px;
     margin-bottom: 0;
+    margin-top: 16px;
 }
 
 .button7 {
@@ -600,8 +601,8 @@ nav button{
     text-align: center;
     background-color: #0062FF;
     padding: 10px 16px;
-    margin-top: 16px;
     margin-left: 0px;
+    display: inline-block;
 }
 
 .section6_text {
@@ -635,7 +636,7 @@ nav button{
     color: #000000;
     margin-top: 0;
     text-align: center;
-    margin-bottom: 28px;
+    margin-bottom: 6px;
 }
 
 #email {
@@ -647,8 +648,8 @@ nav button{
     border-radius: 12px;
     width: 508px;
     height: 70px;
-    padding-left: 24px;
-    margin-left: 1610px;
+    padding-left: 6px;
+    margin-left: 1630px;
     margin-top: 28px;
     border: 0;
     margin-bottom: 20px;
@@ -668,10 +669,13 @@ nav button{
     font-weight: 400;
     font-size: 16px;
     text-align: center;
-    margin-top: 14px;
+    margin-top: 0px;
     margin-bottom: 107.62px;
-    margin-left: 1800px;
+    margin-left: 1632px;
     padding-top: 20px;
+    width: 508px;
+    height: 39px;
+    display: inline-block;
 }
 
 
