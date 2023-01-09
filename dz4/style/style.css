@@ -449,12 +449,13 @@ nav button{
 }
 
 .photo_video {
-    width: 444px;
-    height: 296px;
+    width: 100%;
+    height: 100%;
     display: inline-block;
-    margin-left: 1035px;
     margin-top: -265px;
     margin-bottom: 70px;
+    text-align: center;
+    margin-left: 300px;
 }
 
 .section5 {
