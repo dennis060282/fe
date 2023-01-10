@@ -121,8 +121,8 @@ nav button{
     font-weight: 400;
     font-size: 16px;
     margin: 16px 0px;
-    width: 94px;
-    height: 39px;
+    width: 67px;
+    padding: 10px;
     display: inline-block;
     text-decoration: none;
 }
@@ -135,8 +135,8 @@ nav button{
     font-size: 16px;
     color: #211717;
     margin: 24px 24px;
-    width: 135px;
-    height: 39px;
+    width: 120px;
+    padding: 10px;
     display: inline-block;
     text-decoration: none;
     margin: 24px;
