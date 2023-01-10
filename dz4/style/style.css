@@ -302,6 +302,12 @@ nav button{
     margin-bottom: 0;
     width: 100%;
 }
+#for {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+}
 
 .for_who_text {
     font-family: 'Poppins';
@@ -395,7 +401,7 @@ nav button{
 
 .section4 {
     width: 100%;
-    margin-top: -40px;
+    height: 100%;
 }
 
 .check_demo {
@@ -440,28 +446,30 @@ nav button{
 }
 
 .block4 {
+    font-family: 'Poppins';
+    font-style: normal;
     width: 100%;
     height: 100%;
     margin-left: -250px;
-    padding-top: 16px;
+    padding-top: 0px;
     display: inline-block;
-    margin-bottom: 70px;
+    line-height: 30px;
 }
 
 .photo_video {
     width: 100%;
     height: 100%;
     display: inline-block;
-    margin-top: -265px;
-    margin-bottom: 70px;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 295px;
+    padding-bottom: 60px;
+    margin-top: -270px;
 }
 
 .section5 {
     width: 100%; 
     height: 500px;
-    margin-top: -17px;
+    margin-top: 0 px;
     background-color: #FFBE0B;
 }
 
@@ -615,7 +623,7 @@ nav button{
 .section6_text {
     display: inline-block;
     vertical-align: top;
-    margin-left: 13px;
+    margin-left: 0px;
 }
 
 .stars2 {
@@ -644,6 +652,14 @@ nav button{
     margin-top: 0;
     text-align: center;
     margin-bottom: 6px;
+    margin: 0 auto;
+}
+
+#form{
+    width: 508px;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    font-style: normal;
 }
 
 #email {
@@ -658,7 +674,8 @@ nav button{
     padding-left: 6px;
     margin-top: 28px;
     border: 0; 
-    display: inline-block
+    display: inline-block;
+    margin: 0 auto;
 }
 
 ::placeholder {
@@ -681,7 +698,6 @@ nav button{
     width: 508px;
     height: 39px;
     display: inline-block;
-    margin: 0auto;
 }
 
 
