@@ -662,6 +662,14 @@ nav button{
     font-style: normal;
 }
 
+.block10 {
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: table;
+}
+
 #email {
     font-family: 'Poppins';
     font-style: normal;
