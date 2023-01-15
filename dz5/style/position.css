@@ -5,9 +5,9 @@ body{
 
 .block{
     border: 25px solid blue;
-    max-width: 1800px;
+    max-width: 1900px;
     margin: 0px auto;
-    height: 1650px;
+    height: 1850px;
     background-color: yellow;
 }
 .block_1{ 
@@ -67,4 +67,19 @@ body{
 }
 .photo4{
     width: 550px;
+}
+.block_5{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+    line-height: 50px;
+    position: relative;
+    left: 0px;
+    right: 0;
+    top: -375px;
+    bottom: 0; 
+    text-align: center;
+    font-size: 70px;
+    color: blue;
+    font-style: italic;
 }
