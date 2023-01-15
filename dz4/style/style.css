@@ -33,11 +33,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    background-color: #e5e5e5;
+    background-color: rgb(168, 235, 241);
 }
 .wide-wrapper{
     width: 1487px;
     margin: 0 auto;
+    background-color: rgb(237, 145, 8);
 }
 header2{
     height: 100%;
