@@ -7,7 +7,7 @@ body{
     border: 25px solid blue;
     max-width: 1900px;
     margin: 0px auto;
-    height: 1850px;
+    height: 2050px;
     background-color: yellow;
 }
 .block_1{ 
@@ -23,7 +23,9 @@ body{
     z-index: 3;  
 }
 .photo1{
+    height: 550px;
     width: 550px;
+    border-radius: 15px;
 }
 
 .block_2{
@@ -39,6 +41,8 @@ body{
 }
 .photo2{
     width: 550px;
+    height: 550px;
+    border-radius: 15px;
 }
 .block_3{
     font-size: 18px;
@@ -53,6 +57,8 @@ body{
 }
 .photo3{
     width: 550px;
+    height: 550px;
+    border-radius: 15px;
 }
 .block_4{
     font-size: 18px;
@@ -64,9 +70,12 @@ body{
     right: 0;
     top: -375px;
     bottom: 0; 
+    z-index: 1;
 }
 .photo4{
     width: 550px;
+    height: 550px;
+    border-radius: 15px;
 }
 .block_5{
     font-size: 18px;
@@ -82,4 +91,9 @@ body{
     font-size: 70px;
     color: blue;
     font-style: italic;
+}
+.photo5{
+    height: 90px;
+    width: 150px;
+    border-radius: 15px;
 }
