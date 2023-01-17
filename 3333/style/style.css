@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .conteiner {
+    margin: o auto;
+
+}
+.top_block {
+    width: 512px;
+    height: 512px;
+    background-color: black;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+     
+}
+
+.center_block {
+    width: 512px;
+    height: 512px;
+    position: relative;
+    top: -117px;
+    left: 441px ;
+    z-index: 2;
+}
+
+.blue_block{
+    width: 512px;
+    height: 271.5px;
+    display: inline-block;
+    background-color: #2137FC;
+    position: absolute;
+    z-index: 3;
+}
+
+.yellow_block {
+    width: 512px;
+    height: 240.5px;
+    top: 271.5px;
+    display: inline-block;
+    background-color:  #FFCE22;
+    position: absolute;
+
+}
+
+
+.glyph1 {
+    width: 400px;
+    height: 227px;
+    position: absolute;
+    bottom: 125px ;
+    left: 52.61px;
+    right: 52.11px;
+    z-index: 4;
+
+}
+.bottom_block {
+    width: 512px;
+    height: 512px;
+    background-color:  rgb(246, 243, 243);
+    position: relative;
+    top: -212px;
+    left: 864px;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+  
+}
+
+
+.bottom_blue {
+    display: inline-block;
+    position: absolute;
+    height: 234px;
+    width: 444px;
+    left: 34px;
+    top: 34px;
+    z-index: 3;
+    
+}
+
+.bottom_yellow {
+display: inline-block;
+position: absolute;
+height: 444px;
+width: 444px;
+left: 34px;
+bottom: 34px;
+border-radius: 50%;
+background-color: #FFCE22;
+
+}
+
+.glyph {
+position: absolute;
+height: 203.73px;
+width: 358.44px;
+left: 74px;
+bottom: 52.55px;
+z-index: 5;
+
+
+}
+.Dija {
+    position: absolute ;
+   top: 128px;
+   left: 101px;
+   
+}
+
+.prapor {
+    top: 343px;
+    left: 216px;
+    position: absolute ;
+     
+}
