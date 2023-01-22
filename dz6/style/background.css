@@ -5,4 +5,11 @@ body{
     width: 1920px;
     height: 5448px;
     background-color: black;
+    margin: 0 auto;
+}
+.simple-background{
+    width: 1920px;
+    height: 1573px;
+    background-image: url("../img/Rectangle\ 1.png");
+    margin: 0 auto;
 }
