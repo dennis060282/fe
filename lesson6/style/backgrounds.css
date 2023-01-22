@@ -6,4 +6,37 @@
     height:  480px;
     background-color: #ffff00;
     background-image: url("../img/smile.png");
+    color: red;
+}
+.double-bg{
+    height: 800px;
+    background-image: url("../img/333.png"), url("../img/smile.png");
+    /*background-repeat: repeat-x;
+    background-repeat: repeat-y;*/ 
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-position: top 50px left 200px;
+}
+.bg-size{
+    height: 900px;
+    background-image: url("../img/333.png");
+    border: 5px solid black ;
+    /*background-size: cover ;*/
+    /*background-size: contain;*/
+    /*background-size: 100px 100px;*/
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.big-bg{
+    width: 1600px;
+    padding: 400px 500px;
+    height: 800px;
+    margin: 0 auto 300px;
+    color: white;
+    font-size: 16px;
+    background-image: url("../img/set-internet-web.jpg") ;
+    overflow: hidden;
+    background-size: 80%;
+    background-attachment: scroll, fixed;
 }

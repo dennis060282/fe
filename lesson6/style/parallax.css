@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+}
+.parallax{
+    padding-top: 200px;
+    background-image: url("../img/set-internet-web.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%;
+}
+header, section{
+    padding: 50px;
+    margin-bottom: 300px;
+    background-color: white;
+    font-size: 25px;
+}
+.fb{
+   display: inline-block; 
+   margin-right: 10px;
+   height: 30px;
+   width: 30px;
+   background-image: url(../img/icons8-facebook-30.png);
+   background-position: -30px -59px;
+   border: none;
+}
+.fb:hover{
+    background-position: -30px -47px;
+}
+.fb.non-active{
+    background-position: -191px -80px;
+}
