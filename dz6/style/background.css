@@ -2,6 +2,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: white;
+    text-decoration: none;
 }
 a:hover{
     color:#f9c386
@@ -62,10 +64,10 @@ h4::before{
     font-weight: 600;
 }
 .container{
-width: 1462px;
-position: relative;
-margin: 0 auto;
-bottom: 300px;
+    width: 1462px;
+    position: relative;
+    margin: 0 auto;
+    bottom: 300px;
 }
 body{
     font-family: 'Open Sans', sana-serif;
@@ -104,11 +106,12 @@ header{
 .header_search img{
     opacity: 0.6;
 }
-.hero.txt{
-    width: 950px;
-    margin: 195px auto 0 auto;
-}
+
 .header_search input::placeholder{
     font-size: 17px;
     color: rgb(160,160,160);
+}
+.natur.txt{
+    width: 950px;
+    margin: 195px auto 0 auto;
 }
