@@ -1,43 +1,35 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-body{
-    width: 1920px;
-    height: 5448px;
-    background-color: black;
-    margin: 0 auto;
+a:hover{
+    color:#f9c386
+    /*text-decoration: underline; */
 }
-.simple-background{
-    width: 1920px;
+section{
+    padding-bottom: 250px;
+}
+.background-container{
     height: 1573px;
-    background-image: url("../img/Rectangle\ 1.png");
-    margin: 0 auto;
-}
-.header{
-    width: 1920px;
-    height: 1573px;
-    margin: 0 auto;
-    padding: 64px 85px;;
-}
-.wide-wrapper{
-    width: 1751px;
-    height: 25px;
-    margin: 0 auto;
-    padding: 64px 85px;
-    display: inline-block;
-}
-.logo{
-    width: 96px;
-    height: 32px;
-}
-.account{
-    width: 20px;
-    height: 20px;
-}
-.group{
-    font-size: 16px;
-    font-style: normal;
-}
+    width: 100%;
+    position: relative;
+    background: url("../img/Rectangle\ 1\(1\).png");
 
-
+}
+h2{
+    text-align: left;
+    font-size: 64px;
+}
+h4{
+    color:#f7af5c;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    line-height: 25px;
+    padding-left: 32px;
+    position: relative;
+    margin-left: 72px;
+}
 
