@@ -32,4 +32,83 @@ h4{
     position: relative;
     margin-left: 72px;
 }
-
+h4::before{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 72px;
+    background-color: #f4c086;
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+}
+.txt-block{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.reg-txt{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+}
+.link{
+    display: flex;
+    text-decoration: none;
+    gap: 9px;
+    color: #edb87b;
+    white-space: nowrap;
+    font-weight: 600;
+}
+.container{
+width: 1462px;
+position: relative;
+margin: 0 auto;
+bottom: 300px;
+}
+body{
+    font-family: 'Open Sans', sana-serif;
+    background-color: black;
+    color: white;
+}
+.header_navi{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 85px;
+}
+.header_navi a:hover{
+    color: #f3c085;
+    /*text-decoration:underline;*/
+}
+.logo{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.header_search input{
+    background: transparent;
+    border: none;
+}
+.header_search{
+    gap: 15px;
+    display: flex;
+}
+.header_search img{
+    opacity: 0.6;
+}
+.hero.txt{
+    width: 950px;
+    margin: 195px auto 0 auto;
+}
+.header_search input::placeholder{
+    font-size: 17px;
+    color: rgb(160,160,160);
+}
