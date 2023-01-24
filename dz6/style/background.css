@@ -242,7 +242,7 @@ h1 span{
     content: "";
     display:inline-block;
     vertical-align: middle;
-    background-image: url(../img/arrow_after.png);
+    background-image: url(../img/arrow_downward_24px.png);
     width: 24px;
     height: 16px;
     margin-left: 9px;
@@ -343,7 +343,7 @@ h1 span{
     content: "";
     display:inline-block;
     vertical-align: middle;
-    background-image: url(../img/arrow_after.png);
+    background-image: url(../img/arrow_downward_24px.png);
     width: 24px;
     height: 16px;
     margin-left: 9px;
@@ -383,7 +383,7 @@ h1 span{
     content: "";
     display:inline-block;
     vertical-align: middle;
-    background-image: url(../img/arrow_after.png);
+    background-image: url(../img/arrow_downward_24px.png);
     width: 24px;
     height: 16px;
     margin-left: 9px;
@@ -574,28 +574,28 @@ h1 span{
 }
 .fb{
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 11px;
+    height: 23px;
     background-image: url(../img/Path.png);
-    background-position: -12px 0px;
+    background-position: -11px 0px;
     background-color: transparent;
     border: none;
 }
 .tw{
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width:20.92px;
+    height: 17px;
     background-image: url(../img/twitter.png);
-    background-position: 131px 0px;
+    background-position: 117px -4px;
     background-color: transparent;
     border: none;
 }
 .inst{
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-image: url(../img/Vector\(1\).png);
-    background-position: 50px 0px;
+    background-position: 60px 0px;
     background-color: transparent;
     border: none;
 }
