@@ -2,8 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    color: white;
-    text-decoration: none;
 }
 a:hover{
     color:#f9c386
@@ -12,12 +10,16 @@ a:hover{
 section{
     padding-bottom: 250px;
 }
+.content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .background-container{
     height: 1573px;
     width: 100%;
     position: relative;
     background: url("../img/Rectangle\ 1\(1\).png");
-
 }
 h2{
     text-align: left;
@@ -74,6 +76,10 @@ body{
     background-color: black;
     color: white;
 }
+.no-position-container{
+    width: 1462px;
+    margin: 0 auto;
+}
 .header_navi{
     display: flex;
     gap: 50px;
@@ -89,6 +95,10 @@ header{
 .header_navi a:hover{
     color: #f3c085;
     /*text-decoration:underline;*/
+}
+.header_navi a{
+    color: white;
+    text-decoration: none;
 }
 .logo{
     text-decoration: none;
@@ -106,7 +116,6 @@ header{
 .header_search img{
     opacity: 0.6;
 }
-
 .header_search input::placeholder{
     font-size: 17px;
     color: rgb(160,160,160);
@@ -115,3 +124,66 @@ header{
     width: 950px;
     margin: 195px auto 0 auto;
 }
+/*.natur_txt h4{
+    color: #ffc177;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    position: relative;
+    padding-left: 32px;
+    margin-left: 72px;
+}
+.natur_txt h4::before{
+    content: "";
+    width: 72px;
+    height: 2px;
+    display: block;
+    background-color: #ffc178;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    transform: translate Y(-50%);
+}*/
+h1{
+    font-size: 96px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+h1 span{
+    font-weight: 300;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    left: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.socials p{
+    transform: rotate(90deg);
+    margin-bottom: 35px;
+}
+.natur_link{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 125px;
+}
+.natur_link:hover{
+    text-decoration: underline;
+    color: white;
+}
+.holiday_txt{
+    width: 632px;
+}
+
