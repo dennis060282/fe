@@ -27,6 +27,10 @@ body{
     display: flex;
 
 }
+.flex-image2{
+    width: 598px;
+    height: 720px;
+}
 h1{
     font-weight: 700;
     font-size: 96px;
@@ -208,7 +212,8 @@ h1 span{
     width: 41%;
 }
 .flex-image{
-    width: 100%;
+    width: 578.49px;
+    height: 720px;
 }
 .article-text{
     padding-left: 232px;
