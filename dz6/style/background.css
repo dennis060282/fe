@@ -21,8 +21,7 @@ body{
     float: right;
 }
 .wrapper{
-    /* width: 1462px; */
-    width: 76.15%;
+    width: 1462px;
     margin: 0 auto;
     display: flex;
 
@@ -72,7 +71,7 @@ a {
 }
 .main{
     background-image: url(../img/Rectangle\ 1\(1\).png);
-    /* width: 1920px; */
+    width: 1920px; 
     height: 1573px;
     background-repeat: no-repeat;
     background-position: top;
@@ -121,7 +120,7 @@ a {
     align-items: center;
 }
 .searchbar img{
-    opacity: 0.6;
+    opacity: 1;
 }
 .searchbar button{
     background: transparent;
@@ -202,7 +201,7 @@ h1 span{
     z-index: 3;
     /* border: 1px solid white; */
     margin-bottom: 105px;
-    /* width: 1461px; */
+    width: 1461px; 
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -360,7 +359,7 @@ h1 span{
     position:relative;
     /* border: 1px solid white; */
     /* margin-bottom: 250px; */
-    /* width: 1461px; */
+    width: 1461px; 
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
