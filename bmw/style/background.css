@@ -311,13 +311,13 @@ h1 span{
 }
 .arrow-left{
     position: absolute;
-    left: 51px;
-    top: 466px;
+    left: 410px;
+    top: 240px;
 }
 .arrow-right{
     position: absolute;
-    right: 51px;
-    top: 466px;
+    right: 410px;
+    top: 240px;
 }
 .image-scroll-text{
     width: 1461px;
