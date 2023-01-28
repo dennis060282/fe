@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+form{
+    padding: 50px;
+}
+input{
+    display: inline-block;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #333;
+    padding: 15px 15px 35px 15px;
+}
+input:focus{
+    background-color: red;
+    outline: none;
+}
+.block{
+    padding: 20px;
+    background-color: yellow;
+    margin-bottom: 50px;
+}
+.i-flex{
+    display: inline-flex;
+    /*display insline-block + flex властивості*/
+}
+.flex{
+    height: 400px;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*flex-wrap: wrap-revrse;*/
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse;*/
+    /*flex-direction: row-reverse;*/
+    /*flex-flow: flex-direction + flex-wrap*/
+    /*flex-flow: row-reverse wrap;*/
+    /*justify-content: flex-end;*/
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-between;*/
+    justify-content: space-around;
+    /*align-items: stretch ;*/
+
+
+}
+.flex-item{
+    /*width: 50%;*/
+    background-color: blue;
+    padding: 20px;
+    border: 1px solid white;    
+}
+.flex-item:nth-child(1){
+    height: 100px;
+}
+.flex-item:nth-child(2){
+    height: 150px;
+}
+.flex-item:nth-child(3){
+    height: 300px;
+}
