@@ -10,10 +10,10 @@ html, body{
     width: 100%;
     height: 900px;
     margin: 0 auto;
-    margin-bottom: 60px;
     background-image: url("../img/background1.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-bottom: 60px;
 }
 
 a{
@@ -48,10 +48,10 @@ header a{
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 18px;
     text-transform: uppercase;
     color: white; 
     padding: 8px 0px;
+    line-height: 18px;
 }
     
 header a:hover{
@@ -66,7 +66,7 @@ header a:hover{
     border-bottom: 1px solid white;
 }
     
-.basket{
+.basket-shp{
     width: 40px;
     height: 40px;
     border-radius: 100%; 
@@ -129,7 +129,7 @@ section .text-block01{
     margin-bottom: 63px;
 }
   
-.look-items{
+.look{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -142,7 +142,7 @@ section .text-block01{
     background-color: #C98D5A;
 }
     
-.look-items:hover{
+.look:hover{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
