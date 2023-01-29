@@ -70,7 +70,7 @@ header a:hover{
     width: 40px;
     height: 40px;
     border-radius: 100%; 
-    background-color: #281C14; 
+    background-color: black; 
     background-image: url(../img/shopping-basket\ 1.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -81,7 +81,7 @@ header a:hover{
     height: 0;
     border-style: solid;
     border-width: 5px 5px 0 5px;
-    border-color: #ffffff transparent transparent transparent;
+    border-color: #fae1e1 transparent transparent transparent;
 }
     
 header p{ 
@@ -106,7 +106,7 @@ h1{
     font-size: 73px;
     line-height: 74px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #f5d3d3;
     width: 55%;
 }
     
@@ -116,7 +116,7 @@ h1{
     font-weight: 400;
     font-size: 21px;
     line-height: 26px;
-    color: #FFFFFF;
+    color: #fdf3f3;
     width: 48%;
 }
     
@@ -136,10 +136,10 @@ section .text-block1{
     font-size: 18px;
     line-height: 22px;
     text-transform: uppercase;
-    color: #151616;
+    color: black;
     padding: 30px;
     border-radius: 56px;
-    background-color: #C98D5A;
+    background-color: #dc985d;
 }
     
 .look-button:hover{
@@ -153,6 +153,6 @@ section .text-block1{
     padding: 30px;
     border-radius: 56px;
     border: 2px solid white;
-    background-color: #ffffff00;
+    background-color: black;
 }
            
