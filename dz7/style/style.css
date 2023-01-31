@@ -293,7 +293,7 @@ h2{
     border-radius: 30px;
 }
     
-.bread{
+.view{
     width: 237px;
     height: 208px;
 }
@@ -346,6 +346,7 @@ h3{
 .other{
     margin-top: 30px;
     margin-bottom: 33px;
+    text-align: center;
 }
     
 .about-us{
@@ -355,6 +356,7 @@ h3{
     font-size: 20px;
     line-height: 24px;
     color:black;
+    margin-left: 265px;
 }
     
 .from-us{
@@ -364,9 +366,9 @@ h3{
     font-size: 20px;
     line-height: 24px;
     color: black;
-    text-align: right;
     margin-top: 28px;
     margin-bottom: 81px;
+    margin-left: 1150px;
 }
     
 .last{
@@ -379,13 +381,13 @@ h3{
     background-color: black;
 }
     
-.pictures div{
+.picture div{
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
     
-.pictures{
+.picture{
     display: flex;
     flex-direction: row;
     gap: 30px;
