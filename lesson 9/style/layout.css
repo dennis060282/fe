@@ -24,9 +24,9 @@
 /*max-width: менше цього значення*/
 /*min-width: більше цього значення*/
 
-@media(max-widht:1600px){
+/*@media(max-widht:1600px){
     .responsive{
-    flex-direction: column;
+        flex-direction: column;
     }
 }
 @media(max-widht:1400px){
@@ -37,3 +37,30 @@
         font-size: 20px;
     }
 }
+ */
+
+ /*@media(min-width:400px){
+    .responsive{
+        flex-direction: column;
+    }
+ }
+ @media(min-width:600px){
+    .responsive{
+        flex-direction: column-reverse;
+    }
+    .left-text{
+        font-size: 20px;
+    }
+ } */
+
+@media screen 
+ and (min-width:400px)
+ and (max-width:800px){
+    .left-text{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .wrapper{
+        width: 96%;
+    }
+ }
