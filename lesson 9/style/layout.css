@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.left-text,
+.right-text{
+    width: 100%;
+    padding: 50px;
+}
+.left-text{
+    background-color: yellow;
+    font-size: 30px;
+}
+.right-text{
+    background-color: blue;
+    font-size: 14px;
+}
+/*max-width: менше цього значення*/
+/*min-width: більше цього значення*/
+
+@media(max-widht:1600px){
+    .responsive{
+    flex-direction: column;
+    }
+}
+@media(max-widht:1400px){
+    .responsive{
+        flex-direction: column-reverse;
+    }
+    .left-text{
+        font-size: 20px;
+    }
+}
