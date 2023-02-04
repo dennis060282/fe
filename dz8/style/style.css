@@ -1,3 +1,26 @@
 *{
     box-sizing: border-box;
 }
+:root{
+    --header-bg: #668E68;
+    --header-font-color: white;
+    --header-font-size: 18px;
+}
+.wrapper{
+    width: 58%;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+header{
+    background-color: var(--header-bg) ;
+}
+.logo-block{
+    margin-right: auto;
+}
+.menu-block{
+    margin: 0;
+    padding: 0;
+}
+
