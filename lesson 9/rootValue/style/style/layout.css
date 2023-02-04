@@ -1,3 +1,15 @@
 *{
     box-sizing: border-box;
 }
+:root{
+    --main-color: rgb(243, 16, 16);
+    --title-font-size:20px;
+}
+h1{
+    color:var(--main-color);
+    font-size: var(--title-font-size);
+}
+h2{
+    color: var(--main-color);
+    font-size: var(--title-font-size);
+}
