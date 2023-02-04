@@ -12,5 +12,17 @@ h1{
 h2{
     color: var(--main-color);
     font-size: var(--title-font-size);
-
+}
+h3{
+    --main-color: green;
+    color:var(--main-color);
+}
+h4{
+    color:var(--main-color);  
+}
+@media(max-width:1400px){
+    :root{
+        --main-color:rgb(97, 245, 23);
+        --title-font-size:40px;    
+    }
 }
