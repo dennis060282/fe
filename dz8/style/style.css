@@ -149,7 +149,7 @@ color: var(--color-black);
 display: flex;
 justify-content: center;
 align-items: center;
-background: url(../images/section1_bg.png) no-repeat center;
+background: url(../img/sec1.png) no-repeat center;
 background-size: cover;
 height: 520px;
 }
@@ -181,7 +181,7 @@ align-items: center;
 position: relative;
 width: 350px;
 height: 350px;
-background: url(../images/drinks.png) no-repeat center;
+background: url(../img/dr.png) no-repeat center;
 background-size: cover;
 border: 9px solid #81613B;
 border-radius: 200px;
@@ -211,12 +211,12 @@ font-size: 2.6em;
 }
     
 .main_block:nth-child(2){
-background: url(../images/cakes.png) no-repeat center;
+background: url(../img/cak.png) no-repeat center;
 background-size: cover;
 }
     
 .main_block:nth-child(3){
-background: url(../images/food.png) no-repeat center;
+background: url(../img/pasta.png) no-repeat center;
 background-size: cover;
 }
     
@@ -238,7 +238,7 @@ margin-left: 20px;
 }
     
 .section3{
-background: url(../images/section3_bg.png) no-repeat center;
+background: url(../img/sec3.png) no-repeat center;
 background-size: cover;
 background-repeat: no-repeat;
 height: 600px;
@@ -333,6 +333,8 @@ font-weight: 500;
 font-size: 1.6em;
 line-height: 10px;
 margin-top: 20px;
+color: white;
+text-decoration: none;
 }
     
 .rights p{
@@ -341,6 +343,7 @@ font-family: var(--georgia-font-family);
 font-size: 1.6em;
 line-height: 18px;
 color: var(--text-color);
+color: white;
 }
     
 .scroll{
