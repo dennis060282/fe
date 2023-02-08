@@ -44,10 +44,10 @@ header{
     color: var(--header-font-color);
     text-decoration: none;
 }
-.mobile-menu{
+.mobile{
     display: none;
 }
-.mobile-menu.fa-times{
+.mobile.fa-times{
     display: none;
 }
 @media(max-width:600px){
@@ -57,13 +57,13 @@ header{
     .menu-block{
         display:none;
     }
-    .mobile-menu{
+    .mobile{
         display: block;        
     }
-    .mobile-menu.active .fa-times{
+    .mobile.active .fa-times{
         display: block;
     }
-    .mobile-menu.active .fa-bars{
+    .mobile.active .fa-bars{
         display: none;
     }
     .menu-block.active{
@@ -111,11 +111,11 @@ font-size: 4em;
 text-align: center;
 }
     
-.mobile-menu{
+.mobile{
 display: none;
 }
  
-.mobile-menu .fa-times{
+.mobile.fa-times{
 display: none;
 }
     
