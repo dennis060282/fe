@@ -103,5 +103,5 @@ ul{
 .avatar{
     background-color: blue;
     margin: 20px;
-    @include square(50px, $radius: 50px);
+    @include square(50px, 50px);
 }
