@@ -7,7 +7,7 @@ html,body{
 
 .block01,.block04,footer{
     width:100%;
-    background-image:url(../img/banner1.png);
+    background-image:url(../img/ban1.png);
     height:1080px;
     background-position:center;
     background-repeat:no-repeat;
@@ -417,7 +417,7 @@ p{
 }
 
 .block04,footer{
-    background-image:url(../img/backg02.png);height:904px;background-color:#fff;
+    background-image:url(../img/back2.png);height:904px;background-color:#fff;
 }
 
 .block04 p,footer p{
@@ -603,7 +603,7 @@ p{
 }
 
 footer{
-    background-image:url(../img/backg03.png);
+    background-image:url(../img/back3.png);
     height:auto;
     background-color:#fff;
     padding-bottom:40px;
