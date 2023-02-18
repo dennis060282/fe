@@ -1,5 +1,6 @@
 *{box-sizing:border-box;
 }
+
 html,body{
     font-family:"Philosopher",sans-serif;
     font-style:normal;
@@ -16,10 +17,13 @@ html,body{
 }
 
 @media(320px <= width <= 900px){
-    .block01,.block04,footer{height:800px;}
+    .block01,.block04,footer{
+    height:800px;
+    }
 }
     .block01 .text,.block04 .text,footer .text{
-    display:grid;grid-template-columns:1fr 1fr;
+    display:grid;
+    grid-template-columns:1fr 1fr;
     -moz-column-gap:182px;
     column-gap:182px;
     align-items:start;
@@ -78,10 +82,13 @@ header{
 }
 
 @media(320px <= width <= 900px){
-    header{grid-template-columns:1fr 1fr;
+    header{
+    grid-template-columns:1fr 1fr;
     width:95%;
-    padding-top:20px}
-    header button::after{content:"";
+    padding-top:20px
+    }
+    header button::after{
+    content:"";
     display:inline-block;
     width:30px;
     height:23px;
@@ -92,7 +99,8 @@ header{
     margin-left:15px;
     }
 
-    header button{display:flex;
+    header button{
+    display:flex;
     align-items:center;
     justify-content:flex-end;
     font-size:18px;
@@ -238,7 +246,8 @@ p{
 }
 
 @media(900px <= width <= 1200px){
-    .wrap{width:90%;
+    .wrap{
+    width:90%;
     padding-top:70px;
     padding-bottom:70px;
     }
@@ -343,7 +352,9 @@ p{
 }
 
 @media(900px <= width <= 1200px){
-    .story-text:first-of-type{padding-bottom:1rem;}
+    .story-text:first-of-type{
+    padding-bottom:1rem;
+    }
 }
 
 @media(320px <= width <= 900px){
@@ -585,7 +596,7 @@ p{
 }
 
 .block06{
-    background:#f6fdee
+    background:#f6fdee;
 }
 
 .block06 .achiev-grid{
@@ -602,7 +613,7 @@ p{
     .block06 .achiev-grid{
     grid-template-columns:230px 600px 400px;
     -o-object-fit:contain;
-    object-fit:contain
+    object-fit:contain;
     }
     .block06 .achiev-grid img{
     width:100%;
@@ -620,7 +631,7 @@ p{
     }
     .block06 .achiev-grid img{
     width:100%;
-    height:auto
+    height:auto;
     }
 }
 
@@ -693,7 +704,7 @@ footer .footer-grid{
 
 @media(320px <= width <= 900px){
 footer .footer-grid{
-    display:flex
+    display:flex;
     }
 footer .footer-grid .mail{
     width:100%;
@@ -819,10 +830,18 @@ footer .footer-grid h3{
     margin:0 auto;
     margin-bottom:3rem;
     }
-.line{top:220px}
-footer .footer-grid{margin-top:2.5rem}
-footer .wrap{padding-top:120px}
-.block05 .line:last-child{top:-180px}
+.line{
+    top:220px;
+    }
+footer .footer-grid{
+    margin-top:2.5rem;
+    }
+footer .wrap{
+    padding-top:120px;
+    }
+.block05 .line:last-child{
+    top:-180px;
+    }
 }
 
 @media(320px <= width <= 900px){
